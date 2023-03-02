@@ -1,4 +1,5 @@
 import React from 'react'
+import { Navbar } from '../components/Navbar';
 import './home.css';
 
 export const Home = () => {
@@ -29,7 +30,7 @@ export const Home = () => {
         </div>
       </section>
       <div className="home-page-navbar">
-        Navbar Component
+        <Navbar/>
       </div>
     </div>
   )
