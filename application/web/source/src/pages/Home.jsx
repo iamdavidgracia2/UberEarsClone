@@ -5,23 +5,25 @@ import './home.css';
 export const Home = () => {
   return (
     <div className='home-page-container'>
-      <div className="home-page-top">
+      <section className="home-page-top">
+        <div className="search-bar-component">
         Search Bar Component
-      </div>
+        </div>
+      </section>
       <section className='home-page-middle-top'>
-        <button className="restaurants-button">Restaurants Button</button>
+        <div className="restaurants-button">Restaurants Button</div>
       </section>
       <section className='home-page-middle-middle'>
-        <div className="groceries-button">
-          Groceries Button
-        </div>
-        <div className="alcohol-button">
-          Alcohol Button
-        </div>
+        <span className="groceries-button">
+          Groceries
+        </span>
+        <span className="alcohol-button">
+          Alcohol
+        </span>
       </section>
       <section className='home-page-middle-bottom'>
         <div className="advertisement">
-          Advertisement/Discount Deal
+          Advertisement/Discount 
         </div>
       </section>
       <section className='home-page-bottom'>

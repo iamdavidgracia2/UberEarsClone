@@ -4,3 +4,16 @@
     flex-direction: column;
     text-align: center;
 }
+
+section * {
+    margin-top: 77px;
+    margin-bottom: 77px;
+}
+
+.home-page-middle-middle{
+    text-align: center;
+}
+
+.home-page-navbar{
+    border-top: 5px solid black;
+}
