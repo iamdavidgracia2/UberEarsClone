@@ -1,9 +1,10 @@
 import React from 'react'
+import { RestaurantsList } from '../components/RestaurantsList'
 import './restaurants.css'
 
 export const Restaurants = () => {
   return (
-    <div className='resturants-page-container'>
+    <div className='restaurants-page-container'>
         <div className="restaurants-page-title-container">
             <h1 className="restaurants-page-title">
                 Restaurants
@@ -18,7 +19,9 @@ export const Restaurants = () => {
         </div>
         <div className="restaurants-list-container">
             <div className="restaurants-list">
-                <div className="restaurants-list-component">Restaurants Component</div>
+                <div className="restaurants-list-component">
+                    <RestaurantsList/>
+                </div>
             </div>
         </div>
     </div>
