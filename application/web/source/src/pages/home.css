@@ -2,16 +2,77 @@
     font-size: 25px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     text-align: center;
+    background-color: white;
+    min-height: 100vh;
 }
 
 section * {
-    margin-top: 77px;
-    margin-bottom: 77px;
+    
+    background-color: rgb(227, 227, 227);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.home-page-top{
+    margin-top: 30px;
+}
+
+.search-bar-component{
+    padding: 30px;
+}
+
+.home-page-middle-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(227, 227, 227);
+    padding: 50px;
+    margin-top: -45px;
+}
+
+.restaurants-text{
+    font-size: 45px;
+    margin-right: 20px;
 }
 
 .home-page-middle-middle{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(227, 227, 227);
+}
+
+.groceries-text{
+    padding: 30px;
+    font-size: 30px ;
+}
+
+.groceries-icon{
+    margin-left: -35px;
+   
+}
+
+.alcohol-text{
+    font-size: 30px;
+    padding: 30px;
+}
+
+.alcohol-icon{
+    margin-left: -35px;
+    margin-right: 20px;
+}
+
+.home-page-middle-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(227, 227, 227);
 }
 
 .home-page-navbar{
