@@ -24,7 +24,7 @@ export const Home = () => {
       </section>
       <section className='home-page-middle-middle'>
         <span className="groceries-text">
-          Groceries
+          <Link to='/groceries'>Groceries </Link>
         </span>
         <span className="groceries-icon">
           <ShoppingCartCheckoutIcon/>
