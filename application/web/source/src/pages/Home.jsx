@@ -12,7 +12,7 @@ export const Home = () => {
       <section className="home-page-top">
         <div className="search-bar-component">
         Search Bar Component
-        </div>
+        </div> 
       </section>
       <section className='home-page-middle-top'>
         <span className="restaurants-text">
@@ -30,7 +30,7 @@ export const Home = () => {
           <ShoppingCartCheckoutIcon/>
         </span>
         <span className="alcohol-text">
-          Alcohol
+          <Link to='/alcohol'>Alcohol</Link>
         </span>
         <span className="alcohol-icon">
           <LiquorIcon/>
