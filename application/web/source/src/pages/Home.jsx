@@ -4,6 +4,7 @@ import './home.css';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import LiquorIcon from '@mui/icons-material/Liquor';
+import { Link } from 'react-router-dom';
 
 export const Home = () => {
   return (
@@ -15,7 +16,7 @@ export const Home = () => {
       </section>
       <section className='home-page-middle-top'>
         <span className="restaurants-text">
-          Restaurants
+          <Link to='/restaurants'>Restaurants</Link>
         </span>
         <span className="restaurants-icon">
           <RestaurantIcon fontSize='large'/>
