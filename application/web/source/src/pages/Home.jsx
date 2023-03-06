@@ -5,6 +5,7 @@ import RestaurantIcon from '@mui/icons-material/Restaurant';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import LiquorIcon from '@mui/icons-material/Liquor';
 import { Link } from 'react-router-dom';
+import { Advertisement } from '../components/Advertisement';
 
 export const Home = () => {
   return (
@@ -38,7 +39,7 @@ export const Home = () => {
       </section>
       <section className='home-page-middle-bottom'>
         <div className="advertisement">
-          Advertisement/Discount 
+          <Advertisement/>
         </div>
       </section>
       <section className='home-page-bottom'>
