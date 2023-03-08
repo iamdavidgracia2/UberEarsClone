@@ -6,6 +6,7 @@ import {Routes, Route} from "react-router-dom";
 import { Groceries } from './pages/Groceries';
 import { Alcohol } from './pages/Alcohol';
 import { Cart } from './pages/Cart';
+import { Browse } from './pages/Browse';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='groceries' element={<Groceries/>}/>
         <Route path='alcohol' element={<Alcohol/>}/>
         <Route path='cart' element={<Cart/>}/>
+        <Route path='browse' element={<Browse/>}/>
       </Routes>
     </div>
   );

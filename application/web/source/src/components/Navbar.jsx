@@ -20,7 +20,7 @@ export const Navbar = () => {
                 </div>
                 <div className="browse-section">
                     <div className="browse-section-icon"><ManageSearchIcon/></div>
-                    <div className="browse-section-text">Browse</div>
+                    <Link to='/browse'>Browse</Link>
                 </div>
                 <div className="cart-section">
                 <div className="-cart-section-icon"><ShoppingCartIcon/></div>

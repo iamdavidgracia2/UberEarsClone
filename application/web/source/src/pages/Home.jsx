@@ -6,13 +6,14 @@ import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 import LiquorIcon from '@mui/icons-material/Liquor';
 import { Link } from 'react-router-dom';
 import { Advertisement } from '../components/Advertisement';
+import SearchBar from '../components/SearchBar';
 
 export const Home = () => {
   return (
     <div className='home-page-container'>
       <section className="home-page-top">
         <div className="search-bar-component">
-        Search Bar Component
+        <SearchBar/>
         </div> 
       </section>
       <section className='home-page-middle-top'>
