@@ -1,4 +1,5 @@
 import React from 'react'
+import { Navbar } from '../components/Navbar'
 import './alcohol.css'
 
 export const Alcohol = () => {
@@ -12,6 +13,7 @@ export const Alcohol = () => {
                 Alcohol List Component
             </div>
         </div>
+        <div><Navbar/></div>
     </div>
   )
 }

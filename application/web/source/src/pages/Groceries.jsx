@@ -1,4 +1,5 @@
 import React from 'react'
+import { Navbar } from '../components/Navbar'
 import './groceries.css'
 
 export const Groceries = () => {
@@ -12,6 +13,7 @@ export const Groceries = () => {
                 Groceries List Component
             </div>
         </div>
+        <Navbar/>
     </div>
   )
 }

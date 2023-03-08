@@ -1,4 +1,5 @@
 import React from 'react'
+import { Navbar } from '../components/Navbar'
 import { RestaurantsList } from '../components/RestaurantsList'
 import './restaurants.css'
 
@@ -24,6 +25,7 @@ export const Restaurants = () => {
                 </div>
             </div>
         </div>
+        <div><Navbar/></div>
     </div>
   )
 }
