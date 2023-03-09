@@ -7,6 +7,7 @@ import LiquorIcon from '@mui/icons-material/Liquor';
 import { Link } from 'react-router-dom';
 import { Advertisement } from '../components/Advertisement';
 import SearchBar from '../components/SearchBar';
+import { Favorites } from '../components/Favorites';
 
 export const Home = () => {
   return (
@@ -45,7 +46,7 @@ export const Home = () => {
       </section>
       <section className='home-page-bottom'>
         <div className="favorites-component">
-          Your Favorites Component
+          <Favorites/>
         </div>
       </section>
       <div className="home-page-navbar">
