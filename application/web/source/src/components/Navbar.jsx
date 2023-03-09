@@ -28,7 +28,7 @@ export const Navbar = () => {
                 </div>
                 <div className="account-section">
                     <div className="account-section-icon"><AccountBoxIcon/></div>
-                    <div className="account-section-text">Account</div>
+                    <Link to='/admin'>Admin</Link>
                 </div>
             </div>
         </div>
