@@ -1,4 +1,4 @@
-package com.example.uberEatsClone;
+package com.tekgs.nextgen.uberEatsClone;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
